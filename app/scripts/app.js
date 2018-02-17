@@ -51,4 +51,25 @@ var messages = [
 $(document).ready(function(){
     var index = Math.floor(Math.random() * messages.length)
     $('#message').text('...' + messages[index])
+
+    window.addEventListener('resize', positionElements);
+    positionElements();
+    
 })
+
+function positionElements(){
+    // if(window.innerWidth <= 1400 && window.innerWidth > 400){
+    //     var percentage = (((window.innerWidth - 400) / 1000) * -35) - 15 + '%';
+    //     $('#topRightSloth').css('margin-top', percentage);
+    // } else if(window.innerWidth > 400){
+    //     $('#topRightSloth').css('margin-top', '-15%');
+    // } else{
+    //     $('#topRightSloth').css('margin-top', '-50%');
+    // }
+    var topRightSloth = $('#topRightSloth');
+    topRightSloth.css({
+        'top': '-50px',
+        'left': window.innerWidth - topRightSloth.width()
+    })
+
+}

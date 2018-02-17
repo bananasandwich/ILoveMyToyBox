@@ -50,9 +50,9 @@ body{
     height: 50vh;
     min-width: 200px;
     width: 25vw;
-    margin-top: -15%;
-    float: right;
+    position: fixed;
     background-image: url("../media/images/sloth1.png");
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: 100;
 }
