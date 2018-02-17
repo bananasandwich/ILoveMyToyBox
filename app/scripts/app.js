@@ -11,7 +11,7 @@ var messages = [
     'that you strip down and snuggle with your buggas every day when you get home.',
     'all the weird little sounds you make.',
     'holding eye contact with you in the middle of dev meetings.',
-    'when you sweetly climb into my lap and I cradle you all of you.',
+    'when you sweetly climb into my lap and I cradle all of you.',
     'how soft your lips feel on my skin.',
     'how willing you are to take risks with me. (when jail isn\'t entirely certain)',
     'that you are so damn skilled at playing Super Mario.',
