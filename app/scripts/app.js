@@ -54,8 +54,12 @@ $(document).ready(function(){
     setMessage(index)
 
     window.addEventListener('resize', positionElements);
-    positionElements();
+    document.body.addEventListener("touchmove", function(event) {
+        event.preventDefault();
+        event.stopPropagation();
+    }, false);
     
+    positionElements();
 })
 
 function positionElements(){
