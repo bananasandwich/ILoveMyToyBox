@@ -22,6 +22,7 @@ var messages = [
     'how special it makes me feel when you bump or rub my leg when nobody is looking.',
     'that you\'re goofy enough to grab me from behind and thrust into my ass.',
     'that you take such good care of yourself.',
+    'kissing you when you\'re wearing lipstick just to show you nothing can stop my affection for you.',
     'that you wear certain outfits, knowing they will drive me completely crazy with passion.',
     'meeting up with you at the office after getting tipsy at the brewery.',
     'that you can hold an intelligent conversation about coding.',
@@ -46,6 +47,14 @@ var messages = [
     'coming to your office every morning and finally getting to full on hug and kiss you for the first time that day.',
     'that you genuinely care for the people in your life.',
     'going to lunch with you every day and getting to kiss you in public.',
+    'that you would totally fart on me if you had gas.',
+    'that we have gone to the movies probably five times and literally never watched a single movie.',
+    'that it takes everything in me to not stare in your office every time I walk by.',
+    'that you aren\'t scared to be loved fiercely.',
+    'how shy you get when I notice you singing in the car.',
+    'the days when you forget to put any repellant on at all.',
+    'riding the 5 second elevator up and down with you over and over, so we can make out for longer.',
+    'that you try to have a positive impact on Don\'s mood every day.'
 ]
 
 var index;
