@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0px !important;
+    overflow: hidden;
+    background: #B2635F;
+}
+
+.buffer{
+    height: 30vh;
+    width: 100vw;
+}
+/* #iLoveContainer{
+    height: 30vh;
+    display: table;
+} */
+
+#iLove{
+    float: left;
+    position: absolute;
+    bottom: 70vh;
+    left: 5vw;
+    font-size: calc(10vh);
+    font-family: 'Cookie', Helvetica, sans-serif;
+}
+
+#messageContainer{
+    height: 40vh;
+    width: 100vw;
+    background: #FFA6A1;
+    display: table;
+    font-size: calc(5vh);
+    font-family: 'Cookie', Helvetica, sans-serif;
+}
+
+#message{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 10vw 0 10vw;
+}
+
+#topRightSlothContainer{
+    height: 30vh;
+    width: 20vw;
+    float: right;
+}
+
+#topRightSloth{
+    height: 50vh;
+    min-width: 200px;
+    width: 25vw;
+    margin-top: -15%;
+    float: right;
+    background-image: url("../media/images/sloth1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

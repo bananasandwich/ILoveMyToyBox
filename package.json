@@ -1,0 +1,23 @@
+{
+  "name": "ilovemytoybox",
+  "version": "1.0.0",
+  "description": "For my toybox's eyes only... <3",
+  "main": "index.html",
+  "scripts": {
+    "start": "node index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bananasandwich/ILoveMyToyBox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bananasandwich/ILoveMyToyBox/issues"
+  },
+  "homepage": "https://github.com/bananasandwich/ILoveMyToyBox#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
