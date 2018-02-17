@@ -19,9 +19,7 @@
   <body>
     <div id="root">
       <div id="topBuffer" class="buffer">
-        <!-- <div id="iLoveContainer"> -->
-            <div id="iLove">I love...</div>
-        <!-- </div> -->
+          <div id="iLove">I love...</div>
         <div id="topRightSlothContainer">
           <div id="topRightSloth"></div>
         </div>
@@ -29,7 +27,20 @@
       <div id="messageContainer">
         <div id="message"></div>
       </div>
-      <div id="botBuffer" class="buffer"></div>
+      <div id="botBuffer" class="buffer">
+        <div id="leftBotBuffer" class="botBuffer"></div>
+        <div id="leftArrowContainer" class="arrowContainer">
+          <div class="iconContainer">
+              <i id="leftArrow" class="glyphicon glyphicon-chevron-left arrow" onclick="prevMessage()"></i>
+          </div>
+        </div>
+        <div id="rightArrowContainer" class="arrowContainer">
+          <div class="iconContainer">
+              <i id="rightArrow" class="glyphicon glyphicon-chevron-right arrow" onclick="nextMessage()"></i>
+          </div>
+        </div>
+        <div id="rightBotBuffer" class="botBuffer"></div>
+      </div>
     </div>
   </body>
   </html>

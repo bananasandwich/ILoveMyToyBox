@@ -45,12 +45,13 @@ var messages = [
     'the looks you give me when you are dying to have sex.',
     'coming to your office every morning and finally getting to full on hug and kiss you for the first time that day.',
     'that you genuinely care for the people in your life.',
-    'going to lunch with you every day and getting to kiss you in public',
+    'going to lunch with you every day and getting to kiss you in public.',
 ]
 
+var index;
 $(document).ready(function(){
-    var index = Math.floor(Math.random() * messages.length)
-    $('#message').text('...' + messages[index])
+    index = Math.floor(Math.random() * messages.length)
+    setMessage(index)
 
     window.addEventListener('resize', positionElements);
     positionElements();
@@ -58,18 +59,25 @@ $(document).ready(function(){
 })
 
 function positionElements(){
-    // if(window.innerWidth <= 1400 && window.innerWidth > 400){
-    //     var percentage = (((window.innerWidth - 400) / 1000) * -35) - 15 + '%';
-    //     $('#topRightSloth').css('margin-top', percentage);
-    // } else if(window.innerWidth > 400){
-    //     $('#topRightSloth').css('margin-top', '-15%');
-    // } else{
-    //     $('#topRightSloth').css('margin-top', '-50%');
-    // }
     var topRightSloth = $('#topRightSloth');
     topRightSloth.css({
         'top': '-50px',
         'left': window.innerWidth - topRightSloth.width()
     })
 
+}
+
+function nextMessage(){
+    index++;
+    setMessage(index);
+}
+
+function prevMessage(){
+    index--;
+    setMessage(index);
+}
+
+function setMessage(i){
+    index = i >= messages.length ? 0 : i < 0 ? messages.length - 1 : i;
+    $('#message').text('...' + messages[index]);
 }

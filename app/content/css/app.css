@@ -6,14 +6,41 @@ body{
     background: #B2635F;
 }
 
+.arrowContainer{
+    height: 30vh;
+    width: 20vw;
+    position: relative;
+    display: inline-block;
+    font-size: 10vw;
+}
+
+.arrow{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.iconContainer{
+    height: 30vh;
+    width: 20vw;
+    display: table;
+    text-align: center;
+}
+
+.botBuffer{
+    height: 30vh;
+    width: 30vw;
+    position: relative;
+    display: inline-block;
+}
+
 .buffer{
     height: 30vh;
     width: 100vw;
 }
-/* #iLoveContainer{
-    height: 30vh;
-    display: table;
-} */
 
 #iLove{
     float: left;
