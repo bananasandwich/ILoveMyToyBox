@@ -65,6 +65,11 @@ function positionElements(){
         'left': window.innerWidth - topRightSloth.width()
     })
 
+    var iLove = $('#iLove');
+    iLove.css({
+        'top': (window.innerHeight * .3) - iLove.height() + 'px'
+    })
+
 }
 
 function nextMessage(){

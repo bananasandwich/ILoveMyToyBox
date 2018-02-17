@@ -45,7 +45,6 @@ body{
 #iLove{
     float: left;
     position: absolute;
-    bottom: 70vh;
     left: 5vw;
     font-size: calc(10vh);
     font-family: 'Cookie', Helvetica, sans-serif;
